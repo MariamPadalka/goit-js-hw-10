@@ -6,13 +6,29 @@
 */
 /* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
+/* @import url('./base.css'); */
 @import url('./container.css');
 @import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
+/* @import url('./header.css'); */
 @import url('./vite-promo.css');
-@import url('./badges.css');
+/* @import url('./badges.css'); */
 @import url('./back-link.css');
-@import url('./footer.css');
+/* @import url('./footer.css'); */
+
+.back-link {
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
